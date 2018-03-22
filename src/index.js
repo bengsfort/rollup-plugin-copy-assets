@@ -10,14 +10,19 @@ import path from 'path';
  */
 export default function copy(options = {}) {
   const { assets } = options;
+  let basedir = '';
   return {
     name: 'copy-assets',
+    options: function options(options) {
+      // Cache the base directory so we can figure out where to put assets.
+      basedir = path.dirname(options.input);
+    },
     onwrite: function write(writeOptions) {
-      console.log(arguments.length);
       const outputDirectory = path.dirname(writeOptions.file);
-      return Promise.all(assets.map((asset) =>
-        fs.copy(asset, path.join(outputDirectory, asset))
-      ));
+      return Promise.all(assets.map((asset) => fs.copy(
+        asset,
+        path.join(outputDirectory, path.relative(basedir, asset))
+      )));
     },
   };
 }
