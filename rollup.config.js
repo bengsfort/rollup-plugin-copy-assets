@@ -4,9 +4,19 @@ import commonJS from 'rollup-plugin-commonjs';
 
 export default {
   input: './src/index.js',
-  external: ['fs', 'path'],
+  external: [
+    'fs',
+    'path',
+    'constants',
+    'stream',
+    'util',
+    'assert',
+    'os',
+  ],
   plugins: [
-    resolve(),
+    resolve({
+      preferBuiltins: false,
+    }),
     commonJS({
       include: 'node_modules/**',
     }),
@@ -14,11 +24,14 @@ export default {
       babelrc: false,
       presets: [
         [
-          'es2015',
+          'env',
           {
             modules: false,
           },
         ],
+      ],
+      plugins: [
+        'external-helpers',
       ],
     }),
   ],
