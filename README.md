@@ -1,6 +1,6 @@
 # rollup-plugin-copy-assets
 
-![build status](https://api.travis-ci.org/bengsfort/rollup-plugin-copy-assets.svg?branch=master) [![npm version](https://badge.fury.io/js/rollup-plugin-copy-assets.svg)](https://www.npmjs.com/package/rollup-plugin-generate-html-template)
+![build status](https://api.travis-ci.org/bengsfort/rollup-plugin-copy-assets.svg?branch=master) [![npm version](https://badge.fury.io/js/rollup-plugin-copy-assets.svg)](https://www.npmjs.com/package/rollup-plugin-copy-assets)
 
 Copy additional assets into the output directory of your rollup bundle.
 
