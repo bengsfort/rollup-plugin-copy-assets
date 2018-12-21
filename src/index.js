@@ -17,8 +17,8 @@ export default function copy(options = {}) {
       // Cache the base directory so we can figure out where to put assets.
       basedir = path.dirname(options.input);
     },
-    onwrite: function write(writeOptions) {
-      const outputDirectory = path.dirname(writeOptions.file);
+    generateBundle: ({ file, dir }) => {
+      const outputDirectory = dir || path.dirname(file);
       return Promise.all(assets.map((asset) => fs.copy(
         asset,
         path.join(outputDirectory, path.relative(basedir, asset))
