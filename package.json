@@ -17,7 +17,8 @@
     "build:cjs": "rollup -c -o ./dist/rollup-plugin-copy-assets.js -f cjs",
     "build:module": "rollup -c -o ./dist/rollup-plugin-copy-assets.module.js -f es",
     "prebuild": "rimraf dist/*",
-    "lint": "eslint ./src"
+    "lint": "eslint ./src",
+    "lint:fix": "eslint ./src --fix"
   },
   "repository": {
     "type": "git",

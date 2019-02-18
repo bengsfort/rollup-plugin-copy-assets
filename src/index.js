@@ -21,7 +21,10 @@ export default function copy(options = {}) {
       const outputDirectory = dir || path.dirname(file);
       return Promise.all(assets.map((asset) => fs.copy(
         asset,
-        path.join(outputDirectory, path.relative(basedir, asset))
+        path.join(outputDirectory, path.relative(basedir, asset)),
+        {
+          overwrite: true,
+        }
       )));
     },
   };

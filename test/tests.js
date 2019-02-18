@@ -38,6 +38,15 @@ describe('rollup-plugin-copy-assets', function() {
     ]))
     .then(() => done());
   });
+
+  it('should not fail when the directory exists', function(done) {
+    const doBuild = () => build({
+      assets: ['fixtures/assets/foo.txt'],
+    }).then(() => Promise.all([
+      assertExists('output/assets/foo.txt'),
+    ]));
+    doBuild().then(() => doBuild()).then(() => done());
+  });
 });
 
 // Run the rollup build with an plugin configuration.
