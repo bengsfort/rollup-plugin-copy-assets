@@ -1,8 +1,7 @@
-var test = (function () {
-	'use strict';
+var test = (function() {
+  "use strict";
 
-	const foo = 'foo';
+  const foo = "foo";
 
-	return foo;
-
-}());
+  return foo;
+})();
