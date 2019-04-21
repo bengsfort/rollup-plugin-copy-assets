@@ -1,0 +1,573 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/61cc66c/
+*.js	package.json	/^    "*.js": [$/;"	a	object:lint-staged
+*.json	package.json	/^    "*.json": [$/;"	a	object:lint-staged
+0	package.json	/^      "prettier --write",$/;"	s	array:lint-staged.*.js
+0	package.json	/^      "prettier --write",$/;"	s	array:lint-staged.*.json
+0	package.json	/^    "dist",$/;"	s	array:files
+0	package.json	/^    "rollup-plugin",$/;"	s	array:keywords
+1	package.json	/^      "git add"$/;"	s	array:lint-staged.*.json
+1	package.json	/^      "yarn lint",$/;"	s	array:lint-staged.*.js
+1	package.json	/^    "bundle",$/;"	s	array:keywords
+1	package.json	/^    "src",$/;"	s	array:files
+1.0.0	CHANGELOG.md	/^## 1.0.0$/;"	s
+2	package.json	/^      "git add"$/;"	s	array:lint-staged.*.js
+2	package.json	/^    "README.md"$/;"	s	array:files
+2	package.json	/^    "copy",$/;"	s	array:keywords
+3	package.json	/^    "rollup",$/;"	s	array:keywords
+4	package.json	/^    "assets"$/;"	s	array:keywords
+@babel/core	package.json	/^    "@babel\/core": "^7.4.3",$/;"	s	object:devDependencies
+@babel/preset-env	package.json	/^    "@babel\/preset-env": "^7.4.3",$/;"	s	object:devDependencies
+@babel/register	package.json	/^    "@babel\/register": "^7.4.0",$/;"	s	object:devDependencies
+BUF_LENGTH	dist/rollup-plugin-copy-assets.js	/^  const BUF_LENGTH = 64 * 1024;$/;"	V
+BUF_LENGTH	dist/rollup-plugin-copy-assets.module.js	/^  const BUF_LENGTH = 64 * 1024;$/;"	V
+EOL	dist/rollup-plugin-copy-assets.js	/^      EOL = options.EOL;$/;"	P
+EOL	dist/rollup-plugin-copy-assets.js	/^  var EOL = '\\n';$/;"	V
+EOL	dist/rollup-plugin-copy-assets.module.js	/^      EOL = options.EOL;$/;"	P
+EOL	dist/rollup-plugin-copy-assets.module.js	/^  var EOL = '\\n';$/;"	V
+EXISTING_PATH	__tests__/tests.js	/^const EXISTING_PATH = path.join(TEST_PATH, ".\/existing-dir");$/;"	C
+INVALID_PATH_CHARS	dist/rollup-plugin-copy-assets.js	/^const INVALID_PATH_CHARS = \/[<>:"|?*]\/;$/;"	C
+INVALID_PATH_CHARS	dist/rollup-plugin-copy-assets.js	/^const INVALID_PATH_CHARS = \/[<>:"|?*]\/;$/;"	V
+INVALID_PATH_CHARS	dist/rollup-plugin-copy-assets.module.js	/^const INVALID_PATH_CHARS = \/[<>:"|?*]\/;$/;"	C
+INVALID_PATH_CHARS	dist/rollup-plugin-copy-assets.module.js	/^const INVALID_PATH_CHARS = \/[<>:"|?*]\/;$/;"	V
+Installation	README.md	/^## Installation$/;"	s
+License	README.md	/^## License$/;"	s
+OUTPUT_PATH	__tests__/tests.js	/^const OUTPUT_PATH = path.join(TEST_PATH, ".\/output");$/;"	C
+Options	README.md	/^### Options$/;"	S
+Output directory structure	README.md	/^# Output directory structure$/;"	c
+ReadStream	dist/rollup-plugin-copy-assets.js	/^      ReadStream = legStreams.ReadStream;$/;"	P
+ReadStream	dist/rollup-plugin-copy-assets.js	/^    ReadStream: ReadStream,$/;"	P
+ReadStream	dist/rollup-plugin-copy-assets.module.js	/^      ReadStream = legStreams.ReadStream;$/;"	P
+ReadStream	dist/rollup-plugin-copy-assets.module.js	/^    ReadStream: ReadStream,$/;"	P
+Source directory structure	README.md	/^# Source directory structure$/;"	c
+TEST_PATH	__tests__/tests.js	/^const TEST_PATH = path.join(__dirname, ".\/__tests__");$/;"	C
+TODO	dist/rollup-plugin-copy-assets.js	/^\/\/ TODO: expand to include the rest$/;"	T
+TODO	dist/rollup-plugin-copy-assets.module.js	/^\/\/ TODO: expand to include the rest$/;"	T
+Usage	README.md	/^## Usage$/;"	s
+WriteStream	dist/rollup-plugin-copy-assets.js	/^      WriteStream = legStreams.WriteStream;$/;"	P
+WriteStream	dist/rollup-plugin-copy-assets.js	/^    WriteStream: WriteStream$/;"	P
+WriteStream	dist/rollup-plugin-copy-assets.module.js	/^      WriteStream = legStreams.WriteStream;$/;"	P
+WriteStream	dist/rollup-plugin-copy-assets.module.js	/^    WriteStream: WriteStream$/;"	P
+__proto__	dist/rollup-plugin-copy-assets.js	/^    __proto__: obj.__proto__$/;"	P
+__proto__	dist/rollup-plugin-copy-assets.module.js	/^    __proto__: obj.__proto__$/;"	P
+_fs	dist/rollup-plugin-copy-assets.js	/^  _fs = fs;$/;"	P
+_fs	dist/rollup-plugin-copy-assets.js	/^  _fs = gracefulFs;$/;"	P
+_fs	dist/rollup-plugin-copy-assets.module.js	/^  _fs = fs;$/;"	P
+_fs	dist/rollup-plugin-copy-assets.module.js	/^  _fs = gracefulFs;$/;"	P
+_open	dist/rollup-plugin-copy-assets.js	/^      this._open = fs.open;$/;"	P
+_open	dist/rollup-plugin-copy-assets.module.js	/^      this._open = fs.open;$/;"	P
+_queue	dist/rollup-plugin-copy-assets.js	/^    this._queue = [];$/;"	P
+_queue	dist/rollup-plugin-copy-assets.module.js	/^    this._queue = [];$/;"	P
+api	dist/rollup-plugin-copy-assets.js	/^  const api = ['access', 'appendFile', 'chmod', 'chown', 'close', 'copyFile', 'fchmod', 'fchown'/;"	A
+api	dist/rollup-plugin-copy-assets.module.js	/^  const api = ['access', 'appendFile', 'chmod', 'chown', 'close', 'copyFile', 'fchmod', 'fchown'/;"	A
+args	dist/rollup-plugin-copy-assets.js	/^      var args = [path];$/;"	A
+args	dist/rollup-plugin-copy-assets.module.js	/^      var args = [path];$/;"	A
+author	package.json	/^  "author": "Matt Bengston <bengston.matthew@gmail.com> (https:\/\/bengsfort.github.io)",$/;"	s
+babel-jest	package.json	/^    "babel-jest": "^24.7.1",$/;"	s	object:devDependencies
+backoff	dist/rollup-plugin-copy-assets.js	/^        var backoff = 0;$/;"	V
+backoff	dist/rollup-plugin-copy-assets.module.js	/^        var backoff = 0;$/;"	V
+basedir	dist/rollup-plugin-copy-assets.js	/^      basedir = path.dirname(input);$/;"	P
+basedir	dist/rollup-plugin-copy-assets.js	/^  let basedir = "";$/;"	V
+basedir	dist/rollup-plugin-copy-assets.module.js	/^      basedir = path.dirname(input);$/;"	P
+basedir	dist/rollup-plugin-copy-assets.module.js	/^  let basedir = "";$/;"	V
+basedir	src/index.js	/^      basedir = path.dirname(input);$/;"	P
+basedir	src/index.js	/^  let basedir = "";$/;"	V
+bufferSize	dist/rollup-plugin-copy-assets.js	/^    this.bufferSize = 64 * 1024;$/;"	P
+bufferSize	dist/rollup-plugin-copy-assets.module.js	/^    this.bufferSize = 64 * 1024;$/;"	P
+bugs	package.json	/^  "bugs": {$/;"	o
+build	package.json	/^    "build": "yarn build:cjs && yarn build:module",$/;"	s	object:scripts
+build:cjs	package.json	/^    "build:cjs": "rollup -c -o .\/dist\/rollup-plugin-copy-assets.js -f cjs",$/;"	s	object:scripts
+build:module	package.json	/^    "build:module": "rollup -c -o .\/dist\/rollup-plugin-copy-assets.module.js -f es",$/;"	s	object:scripts
+busy	dist/rollup-plugin-copy-assets.js	/^    this.busy = false;$/;"	P
+busy	dist/rollup-plugin-copy-assets.module.js	/^    this.busy = false;$/;"	P
+busyTries	dist/rollup-plugin-copy-assets.js	/^  let busyTries = 0;$/;"	V
+busyTries	dist/rollup-plugin-copy-assets.module.js	/^  let busyTries = 0;$/;"	V
+bytesWritten	dist/rollup-plugin-copy-assets.js	/^    this.bytesWritten = 0;$/;"	P
+bytesWritten	dist/rollup-plugin-copy-assets.module.js	/^    this.bytesWritten = 0;$/;"	P
+callback	dist/rollup-plugin-copy-assets.js	/^        callback = function (er, _, __) {$/;"	M
+callback	dist/rollup-plugin-copy-assets.js	/^    callback = encoding;$/;"	P
+callback	dist/rollup-plugin-copy-assets.js	/^    callback = options;$/;"	P
+callback	dist/rollup-plugin-copy-assets.js	/^    callback = opts;$/;"	P
+callback	dist/rollup-plugin-copy-assets.js	/^  callback = callback || function () {};$/;"	P
+callback	dist/rollup-plugin-copy-assets.js	/^  callback = typeof type === 'function' ? type : callback;$/;"	P
+callback	dist/rollup-plugin-copy-assets.module.js	/^        callback = function (er, _, __) {$/;"	M
+callback	dist/rollup-plugin-copy-assets.module.js	/^    callback = encoding;$/;"	P
+callback	dist/rollup-plugin-copy-assets.module.js	/^    callback = options;$/;"	P
+callback	dist/rollup-plugin-copy-assets.module.js	/^    callback = opts;$/;"	P
+callback	dist/rollup-plugin-copy-assets.module.js	/^  callback = callback || function () {};$/;"	P
+callback	dist/rollup-plugin-copy-assets.module.js	/^  callback = typeof type === 'function' ? type : callback;$/;"	P
+cb	dist/rollup-plugin-copy-assets.js	/^        cb = options;$/;"	P
+cb	dist/rollup-plugin-copy-assets.js	/^    cb = options;$/;"	P
+cb	dist/rollup-plugin-copy-assets.js	/^    cb = opts;$/;"	P
+cb	dist/rollup-plugin-copy-assets.js	/^  cb = cb || function () {};$/;"	P
+cb	dist/rollup-plugin-copy-assets.module.js	/^        cb = options;$/;"	P
+cb	dist/rollup-plugin-copy-assets.module.js	/^    cb = options;$/;"	P
+cb	dist/rollup-plugin-copy-assets.module.js	/^    cb = opts;$/;"	P
+cb	dist/rollup-plugin-copy-assets.module.js	/^  cb = cb || function () {};$/;"	P
+chai	package.json	/^    "chai": "^4.2.0",$/;"	s	object:devDependencies
+clearMocks	jest.config.js	/^  clearMocks: true,$/;"	P
+content	dist/rollup-plugin-copy-assets.js	/^    content = stripBom(content);$/;"	P
+content	dist/rollup-plugin-copy-assets.js	/^  content = content.replace(\/^\\uFEFF\/, '');$/;"	P
+content	dist/rollup-plugin-copy-assets.module.js	/^    content = stripBom(content);$/;"	P
+content	dist/rollup-plugin-copy-assets.module.js	/^  content = content.replace(\/^\\uFEFF\/, '');$/;"	P
+copy	dist/rollup-plugin-copy-assets.js	/^  copy: u$2(copy_1)$/;"	P
+copy	dist/rollup-plugin-copy-assets.module.js	/^  copy: u$2(copy_1)$/;"	P
+copy	src/index.js	/^export default function copy(options = {}) {$/;"	e
+copy$1	dist/rollup-plugin-copy-assets.js	/^var copy$1 = {$/;"	O
+copy$1	dist/rollup-plugin-copy-assets.module.js	/^var copy$1 = {$/;"	O
+copy$2	dist/rollup-plugin-copy-assets.js	/^const copy$2 = copy$1.copy;$/;"	C
+copy$2	dist/rollup-plugin-copy-assets.module.js	/^const copy$2 = copy$1.copy;$/;"	C
+copySync	dist/rollup-plugin-copy-assets.js	/^  copySync: copySync_1$/;"	P
+copySync	dist/rollup-plugin-copy-assets.module.js	/^  copySync: copySync_1$/;"	P
+copySync$1	dist/rollup-plugin-copy-assets.js	/^var copySync$1 = {$/;"	O
+copySync$1	dist/rollup-plugin-copy-assets.module.js	/^var copySync$1 = {$/;"	O
+copySync$2	dist/rollup-plugin-copy-assets.js	/^const copySync$2 = copySync$1.copySync;$/;"	C
+copySync$2	dist/rollup-plugin-copy-assets.module.js	/^const copySync$2 = copySync$1.copySync;$/;"	C
+coverageDirectory	jest.config.js	/^  coverageDirectory: "coverage",$/;"	P
+createFile	dist/rollup-plugin-copy-assets.js	/^  createFile: file.createFile,$/;"	P
+createFile	dist/rollup-plugin-copy-assets.js	/^  createFile: u$5(createFile),$/;"	P
+createFile	dist/rollup-plugin-copy-assets.module.js	/^  createFile: file.createFile,$/;"	P
+createFile	dist/rollup-plugin-copy-assets.module.js	/^  createFile: u$5(createFile),$/;"	P
+createFileSync	dist/rollup-plugin-copy-assets.js	/^  createFileSync: file.createFileSync,$/;"	P
+createFileSync	dist/rollup-plugin-copy-assets.module.js	/^  createFileSync: file.createFileSync,$/;"	P
+createLink	dist/rollup-plugin-copy-assets.js	/^  createLink: link.createLink,$/;"	P
+createLink	dist/rollup-plugin-copy-assets.js	/^  createLink: u$6(createLink),$/;"	P
+createLink	dist/rollup-plugin-copy-assets.module.js	/^  createLink: link.createLink,$/;"	P
+createLink	dist/rollup-plugin-copy-assets.module.js	/^  createLink: u$6(createLink),$/;"	P
+createLinkSync	dist/rollup-plugin-copy-assets.js	/^  createLinkSync: link.createLinkSync,$/;"	P
+createLinkSync	dist/rollup-plugin-copy-assets.module.js	/^  createLinkSync: link.createLinkSync,$/;"	P
+createSymlink	dist/rollup-plugin-copy-assets.js	/^  createSymlink: symlink.createSymlink,$/;"	P
+createSymlink	dist/rollup-plugin-copy-assets.js	/^  createSymlink: u$7(createSymlink),$/;"	P
+createSymlink	dist/rollup-plugin-copy-assets.module.js	/^  createSymlink: symlink.createSymlink,$/;"	P
+createSymlink	dist/rollup-plugin-copy-assets.module.js	/^  createSymlink: u$7(createSymlink),$/;"	P
+createSymlinkSync	dist/rollup-plugin-copy-assets.js	/^  createSymlinkSync: symlink.createSymlinkSync,$/;"	P
+createSymlinkSync	dist/rollup-plugin-copy-assets.module.js	/^  createSymlinkSync: symlink.createSymlinkSync,$/;"	P
+cwd	dist/rollup-plugin-copy-assets.js	/^  cwd = null;$/;"	P
+cwd	dist/rollup-plugin-copy-assets.module.js	/^  cwd = null;$/;"	P
+d	dist/rollup-plugin-copy-assets.js	/^  const d = new Date(1435410243862);$/;"	V
+d	dist/rollup-plugin-copy-assets.module.js	/^  const d = new Date(1435410243862);$/;"	V
+data	dist/rollup-plugin-copy-assets.js	/^    data = stripBom(data);$/;"	P
+data	dist/rollup-plugin-copy-assets.module.js	/^    data = stripBom(data);$/;"	P
+dependencies	package.json	/^  "dependencies": {$/;"	o
+description	package.json	/^  "description": "Copy additional assets into the output directory of your rollup bundle.",$/;"	s
+dest	dist/rollup-plugin-copy-assets.js	/^  dest = path.resolve(dest);$/;"	P
+dest	dist/rollup-plugin-copy-assets.module.js	/^  dest = path.resolve(dest);$/;"	P
+destStat	dist/rollup-plugin-copy-assets.js	/^          destStat: notExist$1$/;"	P
+destStat	dist/rollup-plugin-copy-assets.js	/^      destStat: notExist$/;"	P
+destStat	dist/rollup-plugin-copy-assets.js	/^    destStat = gracefulFs.statSync(dest);$/;"	P
+destStat	dist/rollup-plugin-copy-assets.module.js	/^          destStat: notExist$1$/;"	P
+destStat	dist/rollup-plugin-copy-assets.module.js	/^      destStat: notExist$/;"	P
+destStat	dist/rollup-plugin-copy-assets.module.js	/^    destStat = gracefulFs.statSync(dest);$/;"	P
+devDependencies	package.json	/^  "devDependencies": {$/;"	o
+eagCounter	dist/rollup-plugin-copy-assets.js	/^        var eagCounter = 0;$/;"	V
+eagCounter	dist/rollup-plugin-copy-assets.js	/^      var eagCounter = 0;$/;"	V
+eagCounter	dist/rollup-plugin-copy-assets.module.js	/^        var eagCounter = 0;$/;"	V
+eagCounter	dist/rollup-plugin-copy-assets.module.js	/^      var eagCounter = 0;$/;"	V
+empty	dist/rollup-plugin-copy-assets.js	/^var empty = {$/;"	O
+empty	dist/rollup-plugin-copy-assets.module.js	/^var empty = {$/;"	O
+emptyDir	dist/rollup-plugin-copy-assets.js	/^const emptyDir = u$4(function emptyDir(dir, callback) {$/;"	C
+emptyDir	dist/rollup-plugin-copy-assets.module.js	/^const emptyDir = u$4(function emptyDir(dir, callback) {$/;"	C
+emptydir	dist/rollup-plugin-copy-assets.js	/^  emptydir: emptyDir$/;"	P
+emptydir	dist/rollup-plugin-copy-assets.module.js	/^  emptydir: emptyDir$/;"	P
+emptydirSync	dist/rollup-plugin-copy-assets.js	/^  emptydirSync: emptyDirSync,$/;"	P
+emptydirSync	dist/rollup-plugin-copy-assets.module.js	/^  emptydirSync: emptyDirSync,$/;"	P
+encoding	dist/rollup-plugin-copy-assets.js	/^      encoding: options$/;"	P
+encoding	dist/rollup-plugin-copy-assets.js	/^    encoding = 'utf8';$/;"	P
+encoding	dist/rollup-plugin-copy-assets.js	/^    this.encoding = 'binary';$/;"	P
+encoding	dist/rollup-plugin-copy-assets.module.js	/^      encoding: options$/;"	P
+encoding	dist/rollup-plugin-copy-assets.module.js	/^    encoding = 'utf8';$/;"	P
+encoding	dist/rollup-plugin-copy-assets.module.js	/^    this.encoding = 'binary';$/;"	P
+end	dist/rollup-plugin-copy-assets.js	/^        this.end = Infinity;$/;"	P
+end	dist/rollup-plugin-copy-assets.module.js	/^        this.end = Infinity;$/;"	P
+ensure	dist/rollup-plugin-copy-assets.js	/^var ensure = {$/;"	O
+ensure	dist/rollup-plugin-copy-assets.module.js	/^var ensure = {$/;"	O
+ensureDir	dist/rollup-plugin-copy-assets.js	/^  ensureDir: mkdirs$1,$/;"	P
+ensureDir	dist/rollup-plugin-copy-assets.module.js	/^  ensureDir: mkdirs$1,$/;"	P
+ensureDirSync	dist/rollup-plugin-copy-assets.js	/^  ensureDirSync: mkdirsSync_1$/;"	P
+ensureDirSync	dist/rollup-plugin-copy-assets.module.js	/^  ensureDirSync: mkdirsSync_1$/;"	P
+ensureFile	dist/rollup-plugin-copy-assets.js	/^  ensureFile: file.createFile,$/;"	P
+ensureFile	dist/rollup-plugin-copy-assets.module.js	/^  ensureFile: file.createFile,$/;"	P
+ensureFileSync	dist/rollup-plugin-copy-assets.js	/^  ensureFileSync: file.createFileSync,$/;"	P
+ensureFileSync	dist/rollup-plugin-copy-assets.module.js	/^  ensureFileSync: file.createFileSync,$/;"	P
+ensureLink	dist/rollup-plugin-copy-assets.js	/^  ensureLink: link.createLink,$/;"	P
+ensureLink	dist/rollup-plugin-copy-assets.module.js	/^  ensureLink: link.createLink,$/;"	P
+ensureLinkSync	dist/rollup-plugin-copy-assets.js	/^  ensureLinkSync: link.createLinkSync,$/;"	P
+ensureLinkSync	dist/rollup-plugin-copy-assets.module.js	/^  ensureLinkSync: link.createLinkSync,$/;"	P
+ensureSymlink	dist/rollup-plugin-copy-assets.js	/^  ensureSymlink: symlink.createSymlink,$/;"	P
+ensureSymlink	dist/rollup-plugin-copy-assets.module.js	/^  ensureSymlink: symlink.createSymlink,$/;"	P
+ensureSymlinkSync	dist/rollup-plugin-copy-assets.js	/^  ensureSymlinkSync: symlink.createSymlinkSync$/;"	P
+ensureSymlinkSync	dist/rollup-plugin-copy-assets.module.js	/^  ensureSymlinkSync: symlink.createSymlinkSync$/;"	P
+errInval	dist/rollup-plugin-copy-assets.js	/^    const errInval = new Error(p + ' contains invalid WIN32 path characters.');$/;"	V
+errInval	dist/rollup-plugin-copy-assets.module.js	/^    const errInval = new Error(p + ' contains invalid WIN32 path characters.');$/;"	V
+errorOnExist	dist/rollup-plugin-copy-assets.js	/^            errorOnExist: false$/;"	P
+errorOnExist	dist/rollup-plugin-copy-assets.js	/^    errorOnExist: true$/;"	P
+errorOnExist	dist/rollup-plugin-copy-assets.module.js	/^            errorOnExist: false$/;"	P
+errorOnExist	dist/rollup-plugin-copy-assets.module.js	/^    errorOnExist: true$/;"	P
+errorOnExist	src/index.js	/^            errorOnExist: false,$/;"	P
+eslint	package.json	/^    "eslint": "^5.16.0",$/;"	s	object:devDependencies
+exists	dist/rollup-plugin-copy-assets.js	/^      exists = gracefulFs.existsSync(srcpath);$/;"	P
+exists	dist/rollup-plugin-copy-assets.js	/^    exists = gracefulFs.existsSync(relativeToDst);$/;"	P
+exists	dist/rollup-plugin-copy-assets.js	/^    exists = gracefulFs.existsSync(srcpath);$/;"	P
+exists	dist/rollup-plugin-copy-assets.module.js	/^      exists = gracefulFs.existsSync(srcpath);$/;"	P
+exists	dist/rollup-plugin-copy-assets.module.js	/^    exists = gracefulFs.existsSync(relativeToDst);$/;"	P
+exists	dist/rollup-plugin-copy-assets.module.js	/^    exists = gracefulFs.existsSync(srcpath);$/;"	P
+external	rollup.config.js	/^  external: ["fs", "path", "constants", "stream", "util", "assert", "os"],$/;"	P
+fd	dist/rollup-plugin-copy-assets.js	/^    this.fd = null;$/;"	P
+fd	dist/rollup-plugin-copy-assets.module.js	/^    this.fd = null;$/;"	P
+file	__tests__/tests.js	/^      file: ".\/__tests__\/output\/bundle.js",$/;"	P
+file	dist/rollup-plugin-copy-assets.js	/^var file = {$/;"	O
+file	dist/rollup-plugin-copy-assets.module.js	/^var file = {$/;"	O
+files	package.json	/^  "files": [$/;"	a
+filter	dist/rollup-plugin-copy-assets.js	/^      filter: opts$/;"	P
+filter	dist/rollup-plugin-copy-assets.module.js	/^      filter: opts$/;"	P
+flags	dist/rollup-plugin-copy-assets.js	/^    this.flags = 'r';$/;"	P
+flags	dist/rollup-plugin-copy-assets.js	/^    this.flags = 'w';$/;"	P
+flags	dist/rollup-plugin-copy-assets.module.js	/^    this.flags = 'r';$/;"	P
+flags	dist/rollup-plugin-copy-assets.module.js	/^    this.flags = 'w';$/;"	P
+foo	__tests__/existing-dir/bundle.js	/^	const foo = 'foo';$/;"	V
+foo	__tests__/fixtures/index.js	/^const foo = 'foo';$/;"	C
+foo	__tests__/fixtures/index.js	/^const foo = 'foo';$/;"	V
+foo	__tests__/output/bundle.js	/^	const foo = 'foo';$/;"	V
+format	__tests__/tests.js	/^      format: "iife",$/;"	P
+format	package.json	/^    "format": "prettier --write 'rollup.config.js' '.{babel,eslint,prettier}rc' 'package.json' '/;"	s	object:scripts
+fromCallback	dist/rollup-plugin-copy-assets.js	/^  fromCallback: fromCallback,$/;"	P
+fromCallback	dist/rollup-plugin-copy-assets.module.js	/^  fromCallback: fromCallback,$/;"	P
+fromPromise	dist/rollup-plugin-copy-assets.js	/^  fromPromise: fromPromise$/;"	P
+fromPromise	dist/rollup-plugin-copy-assets.module.js	/^  fromPromise: fromPromise$/;"	P
+fs$rename	dist/rollup-plugin-copy-assets.js	/^        fs$rename(from, to, function CB(er) {$/;"	M
+fs$rename	dist/rollup-plugin-copy-assets.module.js	/^        fs$rename(from, to, function CB(er) {$/;"	M
+fs-extra	package.json	/^    "fs-extra": "^7.0.1"$/;"	s	object:dependencies
+generateBundle	src/index.js	/^    generateBundle({ file, dir }) {$/;"	M
+get	dist/rollup-plugin-copy-assets.js	/^      get() {$/;"	M
+get	dist/rollup-plugin-copy-assets.module.js	/^      get() {$/;"	M
+growl	package.json	/^    "growl": "^1.10.5",$/;"	s	object:devDependencies
+homepage	package.json	/^  "homepage": "https:\/\/github.com\/bengsfort\/rollup-plugin-copy-assets#readme",$/;"	s
+hooks	package.json	/^    "hooks": {$/;"	o	object:husky
+husky	package.json	/^    "husky": "^1.3.1",$/;"	s	object:devDependencies
+husky	package.json	/^  "husky": {$/;"	o
+input	__tests__/tests.js	/^    input: ".\/__tests__\/fixtures\/index.js",$/;"	P
+input	rollup.config.js	/^  input: ".\/src\/index.js",$/;"	P
+invalidWin32Path$1	dist/rollup-plugin-copy-assets.js	/^const invalidWin32Path$1 = win32.invalidWin32Path;$/;"	C
+invalidWin32Path$1	dist/rollup-plugin-copy-assets.module.js	/^const invalidWin32Path$1 = win32.invalidWin32Path;$/;"	C
+invalidWin32Path$2	dist/rollup-plugin-copy-assets.js	/^const invalidWin32Path$2 = win32.invalidWin32Path;$/;"	C
+invalidWin32Path$2	dist/rollup-plugin-copy-assets.module.js	/^const invalidWin32Path$2 = win32.invalidWin32Path;$/;"	C
+isWindows	dist/rollup-plugin-copy-assets.js	/^const isWindows = process.platform === 'win32';$/;"	C
+isWindows	dist/rollup-plugin-copy-assets.module.js	/^const isWindows = process.platform === 'win32';$/;"	C
+item	dist/rollup-plugin-copy-assets.js	/^    item = path.join(dir, item);$/;"	P
+item	dist/rollup-plugin-copy-assets.module.js	/^    item = path.join(dir, item);$/;"	P
+items	dist/rollup-plugin-copy-assets.js	/^    items = fs.readdirSync(dir);$/;"	P
+items	dist/rollup-plugin-copy-assets.js	/^    items = items.map(item => path.join(dir, item));$/;"	M
+items	dist/rollup-plugin-copy-assets.js	/^    items = items.map(item => path.join(dir, item));$/;"	P
+items	dist/rollup-plugin-copy-assets.module.js	/^    items = fs.readdirSync(dir);$/;"	P
+items	dist/rollup-plugin-copy-assets.module.js	/^    items = items.map(item => path.join(dir, item));$/;"	M
+items	dist/rollup-plugin-copy-assets.module.js	/^    items = items.map(item => path.join(dir, item));$/;"	P
+jest	package.json	/^    "jest": "^24.7.1",$/;"	s	object:devDependencies
+jsnext:main	package.json	/^  "jsnext:main": "dist\/rollup-plugin-copy-assets.module.js",$/;"	s
+jsonfile	dist/rollup-plugin-copy-assets.js	/^var jsonfile = {$/;"	O
+jsonfile	dist/rollup-plugin-copy-assets.module.js	/^var jsonfile = {$/;"	O
+jsonfile$1	dist/rollup-plugin-copy-assets.js	/^var jsonfile$1 = {$/;"	O
+jsonfile$1	dist/rollup-plugin-copy-assets.module.js	/^var jsonfile$1 = {$/;"	O
+keywords	package.json	/^  "keywords": [$/;"	a
+license	package.json	/^  "license": "MIT",$/;"	s
+link	dist/rollup-plugin-copy-assets.js	/^var link = {$/;"	O
+link	dist/rollup-plugin-copy-assets.module.js	/^var link = {$/;"	O
+lint	package.json	/^    "lint": "eslint .\/src",$/;"	s	object:scripts
+lint-staged	package.json	/^    "lint-staged": "^8.1.5",$/;"	s	object:devDependencies
+lint-staged	package.json	/^    "lint-staged": "lint-staged"$/;"	s	object:scripts
+lint-staged	package.json	/^  "lint-staged": {$/;"	o
+lint:fix	package.json	/^    "lint:fix": "eslint .\/src --fix",$/;"	s	object:scripts
+m	dist/rollup-plugin-copy-assets.js	/^    m = 'GFS4: ' + m.split(\/\\n\/).join('\\nGFS4: ');$/;"	P
+m	dist/rollup-plugin-copy-assets.js	/^    m = m + 'Sync';$/;"	P
+m	dist/rollup-plugin-copy-assets.module.js	/^    m = 'GFS4: ' + m.split(\/\\n\/).join('\\nGFS4: ');$/;"	P
+m	dist/rollup-plugin-copy-assets.module.js	/^    m = m + 'Sync';$/;"	P
+made	dist/rollup-plugin-copy-assets.js	/^      made = made || p;$/;"	P
+made	dist/rollup-plugin-copy-assets.js	/^      made = mkdirsSync(path.dirname(p), opts, made);$/;"	P
+made	dist/rollup-plugin-copy-assets.js	/^    made = made || p;$/;"	P
+made	dist/rollup-plugin-copy-assets.module.js	/^      made = made || p;$/;"	P
+made	dist/rollup-plugin-copy-assets.module.js	/^      made = mkdirsSync(path.dirname(p), opts, made);$/;"	P
+made	dist/rollup-plugin-copy-assets.module.js	/^    made = made || p;$/;"	P
+main	package.json	/^  "main": "dist\/rollup-plugin-copy-assets.js",$/;"	s
+methods	dist/rollup-plugin-copy-assets.js	/^  const methods = ['unlink', 'chmod', 'stat', 'lstat', 'rmdir', 'readdir'];$/;"	A
+methods	dist/rollup-plugin-copy-assets.module.js	/^  const methods = ['unlink', 'chmod', 'stat', 'lstat', 'rmdir', 'readdir'];$/;"	A
+mkdirp	dist/rollup-plugin-copy-assets.js	/^  mkdirp: mkdirs$1,$/;"	P
+mkdirp	dist/rollup-plugin-copy-assets.js	/^const mkdirp = mkdirs_1$1.mkdirs;$/;"	C
+mkdirp	dist/rollup-plugin-copy-assets.module.js	/^  mkdirp: mkdirs$1,$/;"	P
+mkdirp	dist/rollup-plugin-copy-assets.module.js	/^const mkdirp = mkdirs_1$1.mkdirs;$/;"	C
+mkdirp$1	dist/rollup-plugin-copy-assets.js	/^const mkdirp$1 = mkdirs_1$1.mkdirp;$/;"	C
+mkdirp$1	dist/rollup-plugin-copy-assets.module.js	/^const mkdirp$1 = mkdirs_1$1.mkdirp;$/;"	C
+mkdirpSync	dist/rollup-plugin-copy-assets.js	/^  mkdirpSync: mkdirsSync_1,$/;"	P
+mkdirpSync	dist/rollup-plugin-copy-assets.js	/^const mkdirpSync = mkdirs_1$1.mkdirsSync;$/;"	C
+mkdirpSync	dist/rollup-plugin-copy-assets.module.js	/^  mkdirpSync: mkdirsSync_1,$/;"	P
+mkdirpSync	dist/rollup-plugin-copy-assets.module.js	/^const mkdirpSync = mkdirs_1$1.mkdirsSync;$/;"	C
+mkdirpSync$1	dist/rollup-plugin-copy-assets.js	/^const mkdirpSync$1 = mkdirs_1$1.mkdirsSync;$/;"	C
+mkdirpSync$1	dist/rollup-plugin-copy-assets.module.js	/^const mkdirpSync$1 = mkdirs_1$1.mkdirsSync;$/;"	C
+mkdirs	dist/rollup-plugin-copy-assets.js	/^  mkdirs: mkdirs$1,$/;"	P
+mkdirs	dist/rollup-plugin-copy-assets.module.js	/^  mkdirs: mkdirs$1,$/;"	P
+mkdirs$1	dist/rollup-plugin-copy-assets.js	/^const mkdirs$1 = u(mkdirs_1);$/;"	C
+mkdirs$1	dist/rollup-plugin-copy-assets.module.js	/^const mkdirs$1 = u(mkdirs_1);$/;"	C
+mkdirs$2	dist/rollup-plugin-copy-assets.js	/^const mkdirs$2 = mkdirs_1$1.mkdirs;$/;"	C
+mkdirs$2	dist/rollup-plugin-copy-assets.module.js	/^const mkdirs$2 = mkdirs_1$1.mkdirs;$/;"	C
+mkdirsSync	dist/rollup-plugin-copy-assets.js	/^  mkdirsSync: mkdirsSync_1,$/;"	P
+mkdirsSync	dist/rollup-plugin-copy-assets.module.js	/^  mkdirsSync: mkdirsSync_1,$/;"	P
+mkdirsSync$1	dist/rollup-plugin-copy-assets.js	/^const mkdirsSync$1 = mkdirs_1$1.mkdirsSync;$/;"	C
+mkdirsSync$1	dist/rollup-plugin-copy-assets.module.js	/^const mkdirsSync$1 = mkdirs_1$1.mkdirsSync;$/;"	C
+mkdirs_1$1	dist/rollup-plugin-copy-assets.js	/^var mkdirs_1$1 = {$/;"	O
+mkdirs_1$1	dist/rollup-plugin-copy-assets.module.js	/^var mkdirs_1$1 = {$/;"	O
+mocha	package.json	/^    "mocha": "^6.1.2",$/;"	s	object:devDependencies
+mode	dist/rollup-plugin-copy-assets.js	/^      mode: opts$/;"	P
+mode	dist/rollup-plugin-copy-assets.js	/^      mode: srcStat.mode$/;"	P
+mode	dist/rollup-plugin-copy-assets.js	/^    mode = o777 & ~process.umask();$/;"	P
+mode	dist/rollup-plugin-copy-assets.js	/^    mode = o777$1 & ~process.umask();$/;"	P
+mode	dist/rollup-plugin-copy-assets.js	/^    this.mode = 438;$/;"	P
+mode	dist/rollup-plugin-copy-assets.module.js	/^      mode: opts$/;"	P
+mode	dist/rollup-plugin-copy-assets.module.js	/^      mode: srcStat.mode$/;"	P
+mode	dist/rollup-plugin-copy-assets.module.js	/^    mode = o777 & ~process.umask();$/;"	P
+mode	dist/rollup-plugin-copy-assets.module.js	/^    mode = o777$1 & ~process.umask();$/;"	P
+mode	dist/rollup-plugin-copy-assets.module.js	/^    this.mode = 438;$/;"	P
+module	package.json	/^  "module": "dist\/rollup-plugin-copy-assets.module.js",$/;"	s
+move	dist/rollup-plugin-copy-assets.js	/^  move: u$a(move)$/;"	P
+move	dist/rollup-plugin-copy-assets.module.js	/^  move: u$a(move)$/;"	P
+moveSync_1	dist/rollup-plugin-copy-assets.js	/^var moveSync_1 = {$/;"	O
+moveSync_1	dist/rollup-plugin-copy-assets.module.js	/^var moveSync_1 = {$/;"	O
+move_1	dist/rollup-plugin-copy-assets.js	/^var move_1 = {$/;"	O
+move_1	dist/rollup-plugin-copy-assets.module.js	/^var move_1 = {$/;"	O
+name	__tests__/tests.js	/^      name: "test",$/;"	P
+name	dist/rollup-plugin-copy-assets.js	/^    name: "copy-assets",$/;"	P
+name	dist/rollup-plugin-copy-assets.module.js	/^    name: "copy-assets",$/;"	P
+name	package.json	/^  "name": "rollup-plugin-copy-assets",$/;"	s
+name	src/index.js	/^    name: "copy-assets",$/;"	P
+notExist	dist/rollup-plugin-copy-assets.js	/^const notExist = Symbol('notExist');$/;"	C
+notExist	dist/rollup-plugin-copy-assets.module.js	/^const notExist = Symbol('notExist');$/;"	C
+notExist$1	dist/rollup-plugin-copy-assets.js	/^const notExist$1 = Symbol('notExist');$/;"	C
+notExist$1	dist/rollup-plugin-copy-assets.module.js	/^const notExist$1 = Symbol('notExist');$/;"	C
+o777	dist/rollup-plugin-copy-assets.js	/^const o777 = parseInt('0777', 8);$/;"	C
+o777	dist/rollup-plugin-copy-assets.module.js	/^const o777 = parseInt('0777', 8);$/;"	C
+o777$1	dist/rollup-plugin-copy-assets.js	/^const o777$1 = parseInt('0777', 8);$/;"	C
+o777$1	dist/rollup-plugin-copy-assets.module.js	/^const o777$1 = parseInt('0777', 8);$/;"	C
+obj	dist/rollup-plugin-copy-assets.js	/^      obj = JSON.parse(data, options ? options.reviver : null);$/;"	P
+obj	dist/rollup-plugin-copy-assets.module.js	/^      obj = JSON.parse(data, options ? options.reviver : null);$/;"	P
+open	dist/rollup-plugin-copy-assets.js	/^      open(that.path, that.flags, that.mode, function (err, fd) {$/;"	M
+open	dist/rollup-plugin-copy-assets.module.js	/^      open(that.path, that.flags, that.mode, function (err, fd) {$/;"	M
+options	dist/rollup-plugin-copy-assets.js	/^    options = options || {}; \/\/ Mixin options into this$/;"	P
+options	dist/rollup-plugin-copy-assets.js	/^    options = {};$/;"	P
+options	dist/rollup-plugin-copy-assets.js	/^  const options = {$/;"	O
+options	dist/rollup-plugin-copy-assets.js	/^  options = options || {};$/;"	P
+options	dist/rollup-plugin-copy-assets.module.js	/^    options = options || {}; \/\/ Mixin options into this$/;"	P
+options	dist/rollup-plugin-copy-assets.module.js	/^    options = {};$/;"	P
+options	dist/rollup-plugin-copy-assets.module.js	/^  const options = {$/;"	O
+options	dist/rollup-plugin-copy-assets.module.js	/^  options = options || {};$/;"	P
+options	src/index.js	/^    options({ input }) {$/;"	M
+opts	dist/rollup-plugin-copy-assets.js	/^    opts = {};$/;"	P
+opts	dist/rollup-plugin-copy-assets.js	/^  const opts = {$/;"	O
+opts	dist/rollup-plugin-copy-assets.js	/^  opts = opts || {};$/;"	P
+opts	dist/rollup-plugin-copy-assets.module.js	/^    opts = {};$/;"	P
+opts	dist/rollup-plugin-copy-assets.module.js	/^  const opts = {$/;"	O
+opts	dist/rollup-plugin-copy-assets.module.js	/^  opts = opts || {};$/;"	P
+output	dist/rollup-plugin-copy-assets.js	/^var output = {$/;"	O
+output	dist/rollup-plugin-copy-assets.module.js	/^var output = {$/;"	O
+outputFile	dist/rollup-plugin-copy-assets.js	/^  outputFile: u$b(outputFile),$/;"	P
+outputFile	dist/rollup-plugin-copy-assets.module.js	/^  outputFile: u$b(outputFile),$/;"	P
+overwrite	dist/rollup-plugin-copy-assets.js	/^            overwrite: true,$/;"	P
+overwrite	dist/rollup-plugin-copy-assets.js	/^    overwrite: false$/;"	P
+overwrite	dist/rollup-plugin-copy-assets.module.js	/^            overwrite: true,$/;"	P
+overwrite	dist/rollup-plugin-copy-assets.module.js	/^    overwrite: false$/;"	P
+overwrite	src/index.js	/^            overwrite: true,$/;"	P
+p	dist/rollup-plugin-copy-assets.js	/^  p = p.replace(rp, '');$/;"	P
+p	dist/rollup-plugin-copy-assets.js	/^  p = path.normalize(path.resolve(p)).split(path.sep);$/;"	P
+p	dist/rollup-plugin-copy-assets.js	/^  p = path.resolve(p);$/;"	P
+p	dist/rollup-plugin-copy-assets.module.js	/^  p = p.replace(rp, '');$/;"	P
+p	dist/rollup-plugin-copy-assets.module.js	/^  p = path.normalize(path.resolve(p)).split(path.sep);$/;"	P
+p	dist/rollup-plugin-copy-assets.module.js	/^  p = path.resolve(p);$/;"	P
+path	dist/rollup-plugin-copy-assets.js	/^    this.path = path;$/;"	P
+path	dist/rollup-plugin-copy-assets.module.js	/^    this.path = path;$/;"	P
+pathExists	dist/rollup-plugin-copy-assets.js	/^  pathExists: u$1(pathExists),$/;"	P
+pathExists	dist/rollup-plugin-copy-assets.module.js	/^  pathExists: u$1(pathExists),$/;"	P
+pathExists$1	dist/rollup-plugin-copy-assets.js	/^const pathExists$1 = pathExists_1.pathExists;$/;"	C
+pathExists$1	dist/rollup-plugin-copy-assets.module.js	/^const pathExists$1 = pathExists_1.pathExists;$/;"	C
+pathExists$2	dist/rollup-plugin-copy-assets.js	/^const pathExists$2 = pathExists_1.pathExists;$/;"	C
+pathExists$2	dist/rollup-plugin-copy-assets.module.js	/^const pathExists$2 = pathExists_1.pathExists;$/;"	C
+pathExists$3	dist/rollup-plugin-copy-assets.js	/^const pathExists$3 = pathExists_1.pathExists;$/;"	C
+pathExists$3	dist/rollup-plugin-copy-assets.module.js	/^const pathExists$3 = pathExists_1.pathExists;$/;"	C
+pathExists$4	dist/rollup-plugin-copy-assets.js	/^const pathExists$4 = pathExists_1.pathExists;$/;"	C
+pathExists$4	dist/rollup-plugin-copy-assets.module.js	/^const pathExists$4 = pathExists_1.pathExists;$/;"	C
+pathExists$5	dist/rollup-plugin-copy-assets.js	/^const pathExists$5 = pathExists_1.pathExists;$/;"	C
+pathExists$5	dist/rollup-plugin-copy-assets.module.js	/^const pathExists$5 = pathExists_1.pathExists;$/;"	C
+pathExists$6	dist/rollup-plugin-copy-assets.js	/^const pathExists$6 = pathExists_1.pathExists;$/;"	C
+pathExists$6	dist/rollup-plugin-copy-assets.module.js	/^const pathExists$6 = pathExists_1.pathExists;$/;"	C
+pathExists$7	dist/rollup-plugin-copy-assets.js	/^const pathExists$7 = pathExists_1.pathExists;$/;"	C
+pathExists$7	dist/rollup-plugin-copy-assets.module.js	/^const pathExists$7 = pathExists_1.pathExists;$/;"	C
+pathExists$8	dist/rollup-plugin-copy-assets.js	/^const pathExists$8 = pathExists_1.pathExists;$/;"	C
+pathExists$8	dist/rollup-plugin-copy-assets.module.js	/^const pathExists$8 = pathExists_1.pathExists;$/;"	C
+pathExistsSync	dist/rollup-plugin-copy-assets.js	/^  pathExistsSync: fs_1.existsSync$/;"	P
+pathExistsSync	dist/rollup-plugin-copy-assets.module.js	/^  pathExistsSync: fs_1.existsSync$/;"	P
+pathExists_1	dist/rollup-plugin-copy-assets.js	/^var pathExists_1 = {$/;"	O
+pathExists_1	dist/rollup-plugin-copy-assets.module.js	/^var pathExists_1 = {$/;"	O
+paused	dist/rollup-plugin-copy-assets.js	/^    this.paused = false;$/;"	P
+paused	dist/rollup-plugin-copy-assets.module.js	/^    this.paused = false;$/;"	P
+peerDependencies	package.json	/^  "peerDependencies": {$/;"	o
+plugins	__tests__/tests.js	/^    plugins: [copy(config)],$/;"	P
+plugins	rollup.config.js	/^  plugins: [$/;"	P
+pos	dist/rollup-plugin-copy-assets.js	/^      this.pos = this.start;$/;"	P
+pos	dist/rollup-plugin-copy-assets.js	/^  let pos = 0;$/;"	V
+pos	dist/rollup-plugin-copy-assets.module.js	/^      this.pos = this.start;$/;"	P
+pos	dist/rollup-plugin-copy-assets.module.js	/^  let pos = 0;$/;"	V
+pre-commit	package.json	/^      "pre-commit": "lint-staged"$/;"	s	object:husky.hooks
+prebuild	package.json	/^    "prebuild": "rimraf dist\/*",$/;"	s	object:scripts
+pretest	package.json	/^    "pretest": "yarn build",$/;"	s	object:scripts
+prettier	package.json	/^    "prettier": "^1.16.4",$/;"	s	object:devDependencies
+queue	dist/rollup-plugin-copy-assets.js	/^  var queue = [];$/;"	A
+queue	dist/rollup-plugin-copy-assets.module.js	/^  var queue = [];$/;"	A
+readFile	dist/rollup-plugin-copy-assets.js	/^  readFile: readFile,$/;"	P
+readFile	dist/rollup-plugin-copy-assets.module.js	/^  readFile: readFile,$/;"	P
+readFileSync	dist/rollup-plugin-copy-assets.js	/^  readFileSync: readFileSync,$/;"	P
+readFileSync	dist/rollup-plugin-copy-assets.module.js	/^  readFileSync: readFileSync,$/;"	P
+readJson	dist/rollup-plugin-copy-assets.js	/^  readJson: u$8(jsonfile_1.readFile),$/;"	P
+readJson	dist/rollup-plugin-copy-assets.module.js	/^  readJson: u$8(jsonfile_1.readFile),$/;"	P
+readJsonSync	dist/rollup-plugin-copy-assets.js	/^  readJsonSync: jsonfile_1.readFileSync,$/;"	P
+readJsonSync	dist/rollup-plugin-copy-assets.module.js	/^  readJsonSync: jsonfile_1.readFileSync,$/;"	P
+readable	dist/rollup-plugin-copy-assets.js	/^    this.readable = true;$/;"	P
+readable	dist/rollup-plugin-copy-assets.module.js	/^    this.readable = true;$/;"	P
+remove	dist/rollup-plugin-copy-assets.js	/^  remove: u$3(rimraf_1),$/;"	P
+remove	dist/rollup-plugin-copy-assets.js	/^var remove = {$/;"	O
+remove	dist/rollup-plugin-copy-assets.module.js	/^  remove: u$3(rimraf_1),$/;"	P
+remove	dist/rollup-plugin-copy-assets.module.js	/^var remove = {$/;"	O
+remove$1	dist/rollup-plugin-copy-assets.js	/^const remove$1 = remove.remove;$/;"	C
+remove$1	dist/rollup-plugin-copy-assets.module.js	/^const remove$1 = remove.remove;$/;"	C
+removeSync	dist/rollup-plugin-copy-assets.js	/^  removeSync: rimraf_1.sync$/;"	P
+removeSync	dist/rollup-plugin-copy-assets.js	/^const removeSync = remove.removeSync;$/;"	C
+removeSync	dist/rollup-plugin-copy-assets.module.js	/^  removeSync: rimraf_1.sync$/;"	P
+removeSync	dist/rollup-plugin-copy-assets.module.js	/^const removeSync = remove.removeSync;$/;"	C
+repository	package.json	/^  "repository": {$/;"	o
+resolvedDest	dist/rollup-plugin-copy-assets.js	/^          resolvedDest = path.resolve(process.cwd(), resolvedDest);$/;"	P
+resolvedDest	dist/rollup-plugin-copy-assets.js	/^      resolvedDest = gracefulFs.readlinkSync(dest);$/;"	P
+resolvedDest	dist/rollup-plugin-copy-assets.js	/^      resolvedDest = path.resolve(process.cwd(), resolvedDest);$/;"	P
+resolvedDest	dist/rollup-plugin-copy-assets.module.js	/^          resolvedDest = path.resolve(process.cwd(), resolvedDest);$/;"	P
+resolvedDest	dist/rollup-plugin-copy-assets.module.js	/^      resolvedDest = gracefulFs.readlinkSync(dest);$/;"	P
+resolvedDest	dist/rollup-plugin-copy-assets.module.js	/^      resolvedDest = path.resolve(process.cwd(), resolvedDest);$/;"	P
+resolvedSrc	dist/rollup-plugin-copy-assets.js	/^      resolvedSrc = path.resolve(process.cwd(), resolvedSrc);$/;"	P
+resolvedSrc	dist/rollup-plugin-copy-assets.js	/^    resolvedSrc = path.resolve(process.cwd(), resolvedSrc);$/;"	P
+resolvedSrc	dist/rollup-plugin-copy-assets.module.js	/^      resolvedSrc = path.resolve(process.cwd(), resolvedSrc);$/;"	P
+resolvedSrc	dist/rollup-plugin-copy-assets.module.js	/^    resolvedSrc = path.resolve(process.cwd(), resolvedSrc);$/;"	P
+ret	dist/rollup-plugin-copy-assets.js	/^          ret = fs.futimesSync(fd, at, mt);$/;"	P
+ret	dist/rollup-plugin-copy-assets.js	/^        ret = fs.fchmodSync(fd, mode);$/;"	P
+ret	dist/rollup-plugin-copy-assets.module.js	/^          ret = fs.futimesSync(fd, at, mt);$/;"	P
+ret	dist/rollup-plugin-copy-assets.module.js	/^        ret = fs.fchmodSync(fd, mode);$/;"	P
+rimraf_	dist/rollup-plugin-copy-assets.js	/^  rimraf_(p, options, function CB(er) {$/;"	M
+rimraf_	dist/rollup-plugin-copy-assets.module.js	/^  rimraf_(p, options, function CB(er) {$/;"	M
+rollup	package.json	/^    "rollup": ">=0.67.0"$/;"	s	object:peerDependencies
+rollup	package.json	/^    "rollup": "^1.9.0",$/;"	s	object:devDependencies
+rollup-plugin-babel	package.json	/^    "rollup-plugin-babel": "^4.3.2",$/;"	s	object:devDependencies
+rollup-plugin-commonjs	package.json	/^    "rollup-plugin-commonjs": "^9.3.4",$/;"	s	object:devDependencies
+rollup-plugin-copy-assets	CHANGELOG.md	/^# rollup-plugin-copy-assets$/;"	c
+rollup-plugin-copy-assets	README.md	/^# rollup-plugin-copy-assets$/;"	c
+rollup-plugin-node-resolve	package.json	/^    "rollup-plugin-node-resolve": "^4.2.1"$/;"	s	object:devDependencies
+scripts	package.json	/^  "scripts": {$/;"	o
+setTimeout	dist/rollup-plugin-copy-assets.js	/^            setTimeout(function () {$/;"	M
+setTimeout	dist/rollup-plugin-copy-assets.module.js	/^            setTimeout(function () {$/;"	M
+shouldThrow	dist/rollup-plugin-copy-assets.js	/^    shouldThrow = options.throws;$/;"	P
+shouldThrow	dist/rollup-plugin-copy-assets.module.js	/^    shouldThrow = options.throws;$/;"	P
+spaces	dist/rollup-plugin-copy-assets.js	/^      spaces = options.spaces;$/;"	P
+spaces	dist/rollup-plugin-copy-assets.module.js	/^      spaces = options.spaces;$/;"	P
+src	dist/rollup-plugin-copy-assets.js	/^  src = path.resolve(src);$/;"	P
+src	dist/rollup-plugin-copy-assets.module.js	/^  src = path.resolve(src);$/;"	P
+srcpath	dist/rollup-plugin-copy-assets.js	/^      srcpath = relative.toDst;$/;"	P
+srcpath	dist/rollup-plugin-copy-assets.js	/^  srcpath = relative.toDst;$/;"	P
+srcpath	dist/rollup-plugin-copy-assets.module.js	/^      srcpath = relative.toDst;$/;"	P
+srcpath	dist/rollup-plugin-copy-assets.module.js	/^  srcpath = relative.toDst;$/;"	P
+st	dist/rollup-plugin-copy-assets.js	/^    st = options.lstatSync(p);$/;"	P
+st	dist/rollup-plugin-copy-assets.module.js	/^    st = options.lstatSync(p);$/;"	P
+stat	dist/rollup-plugin-copy-assets.js	/^        stat = xfs.statSync(p);$/;"	P
+stat	dist/rollup-plugin-copy-assets.module.js	/^        stat = xfs.statSync(p);$/;"	P
+stats	dist/rollup-plugin-copy-assets.js	/^    stats = gracefulFs.lstatSync(srcpath);$/;"	P
+stats	dist/rollup-plugin-copy-assets.js	/^    stats = gracefulFs.statSync(file);$/;"	P
+stats	dist/rollup-plugin-copy-assets.js	/^    stats = options.statSync(p);$/;"	P
+stats	dist/rollup-plugin-copy-assets.module.js	/^    stats = gracefulFs.lstatSync(srcpath);$/;"	P
+stats	dist/rollup-plugin-copy-assets.module.js	/^    stats = gracefulFs.statSync(file);$/;"	P
+stats	dist/rollup-plugin-copy-assets.module.js	/^    stats = options.statSync(p);$/;"	P
+str	dist/rollup-plugin-copy-assets.js	/^    str = stringify(obj, options);$/;"	P
+str	dist/rollup-plugin-copy-assets.js	/^  var str = '';$/;"	V
+str	dist/rollup-plugin-copy-assets.module.js	/^    str = stringify(obj, options);$/;"	P
+str	dist/rollup-plugin-copy-assets.module.js	/^  var str = '';$/;"	V
+symlink	dist/rollup-plugin-copy-assets.js	/^var symlink = {$/;"	O
+symlink	dist/rollup-plugin-copy-assets.module.js	/^var symlink = {$/;"	O
+symlinkPaths$1	dist/rollup-plugin-copy-assets.js	/^const symlinkPaths$1 = symlinkPaths_1.symlinkPaths;$/;"	C
+symlinkPaths$1	dist/rollup-plugin-copy-assets.module.js	/^const symlinkPaths$1 = symlinkPaths_1.symlinkPaths;$/;"	C
+symlinkPathsSync$1	dist/rollup-plugin-copy-assets.js	/^const symlinkPathsSync$1 = symlinkPaths_1.symlinkPathsSync;$/;"	C
+symlinkPathsSync$1	dist/rollup-plugin-copy-assets.module.js	/^const symlinkPathsSync$1 = symlinkPaths_1.symlinkPathsSync;$/;"	C
+symlinkPaths_1	dist/rollup-plugin-copy-assets.js	/^var symlinkPaths_1 = {$/;"	O
+symlinkPaths_1	dist/rollup-plugin-copy-assets.module.js	/^var symlinkPaths_1 = {$/;"	O
+symlinkType$1	dist/rollup-plugin-copy-assets.js	/^const symlinkType$1 = symlinkType_1.symlinkType;$/;"	C
+symlinkType$1	dist/rollup-plugin-copy-assets.module.js	/^const symlinkType$1 = symlinkType_1.symlinkType;$/;"	C
+symlinkTypeSync$1	dist/rollup-plugin-copy-assets.js	/^const symlinkTypeSync$1 = symlinkType_1.symlinkTypeSync;$/;"	C
+symlinkTypeSync$1	dist/rollup-plugin-copy-assets.module.js	/^const symlinkTypeSync$1 = symlinkType_1.symlinkTypeSync;$/;"	C
+symlinkType_1	dist/rollup-plugin-copy-assets.js	/^var symlinkType_1 = {$/;"	O
+symlinkType_1	dist/rollup-plugin-copy-assets.module.js	/^var symlinkType_1 = {$/;"	O
+test	package.json	/^    "test": "yarn lint && jest",$/;"	s	object:scripts
+testEnvironment	jest.config.js	/^  testEnvironment: "node",$/;"	P
+threw	dist/rollup-plugin-copy-assets.js	/^          threw = false;$/;"	P
+threw	dist/rollup-plugin-copy-assets.js	/^        threw = false;$/;"	P
+threw	dist/rollup-plugin-copy-assets.module.js	/^          threw = false;$/;"	P
+threw	dist/rollup-plugin-copy-assets.module.js	/^        threw = false;$/;"	P
+tmpfile	dist/rollup-plugin-copy-assets.js	/^  tmpfile = path.join(os.tmpdir(), tmpfile); \/\/ 550 millis past UNIX epoch$/;"	P
+tmpfile	dist/rollup-plugin-copy-assets.module.js	/^  tmpfile = path.join(os.tmpdir(), tmpfile); \/\/ 550 millis past UNIX epoch$/;"	P
+type	dist/rollup-plugin-copy-assets.js	/^    type = stats && stats.isDirectory() ? 'dir' : 'file';$/;"	P
+type	dist/rollup-plugin-copy-assets.js	/^  type = symlinkTypeSync$1(relative.toCwd, type);$/;"	P
+type	dist/rollup-plugin-copy-assets.js	/^  type = typeof type === 'function' ? false : type;$/;"	P
+type	dist/rollup-plugin-copy-assets.module.js	/^    type = stats && stats.isDirectory() ? 'dir' : 'file';$/;"	P
+type	dist/rollup-plugin-copy-assets.module.js	/^  type = symlinkTypeSync$1(relative.toCwd, type);$/;"	P
+type	dist/rollup-plugin-copy-assets.module.js	/^  type = typeof type === 'function' ? false : type;$/;"	P
+type	package.json	/^    "type": "git",$/;"	s	object:repository
+u	dist/rollup-plugin-copy-assets.js	/^const u = universalify.fromCallback;$/;"	C
+u	dist/rollup-plugin-copy-assets.module.js	/^const u = universalify.fromCallback;$/;"	C
+u$1	dist/rollup-plugin-copy-assets.js	/^const u$1 = universalify.fromPromise;$/;"	C
+u$1	dist/rollup-plugin-copy-assets.module.js	/^const u$1 = universalify.fromPromise;$/;"	C
+u$2	dist/rollup-plugin-copy-assets.js	/^const u$2 = universalify.fromCallback;$/;"	C
+u$2	dist/rollup-plugin-copy-assets.module.js	/^const u$2 = universalify.fromCallback;$/;"	C
+u$3	dist/rollup-plugin-copy-assets.js	/^const u$3 = universalify.fromCallback;$/;"	C
+u$3	dist/rollup-plugin-copy-assets.module.js	/^const u$3 = universalify.fromCallback;$/;"	C
+u$4	dist/rollup-plugin-copy-assets.js	/^const u$4 = universalify.fromCallback;$/;"	C
+u$4	dist/rollup-plugin-copy-assets.module.js	/^const u$4 = universalify.fromCallback;$/;"	C
+u$5	dist/rollup-plugin-copy-assets.js	/^const u$5 = universalify.fromCallback;$/;"	C
+u$5	dist/rollup-plugin-copy-assets.module.js	/^const u$5 = universalify.fromCallback;$/;"	C
+u$6	dist/rollup-plugin-copy-assets.js	/^const u$6 = universalify.fromCallback;$/;"	C
+u$6	dist/rollup-plugin-copy-assets.module.js	/^const u$6 = universalify.fromCallback;$/;"	C
+u$7	dist/rollup-plugin-copy-assets.js	/^const u$7 = universalify.fromCallback;$/;"	C
+u$7	dist/rollup-plugin-copy-assets.module.js	/^const u$7 = universalify.fromCallback;$/;"	C
+u$8	dist/rollup-plugin-copy-assets.js	/^const u$8 = universalify.fromCallback;$/;"	C
+u$8	dist/rollup-plugin-copy-assets.module.js	/^const u$8 = universalify.fromCallback;$/;"	C
+u$9	dist/rollup-plugin-copy-assets.js	/^const u$9 = universalify.fromCallback;$/;"	C
+u$9	dist/rollup-plugin-copy-assets.module.js	/^const u$9 = universalify.fromCallback;$/;"	C
+u$a	dist/rollup-plugin-copy-assets.js	/^const u$a = universalify.fromCallback;$/;"	C
+u$a	dist/rollup-plugin-copy-assets.module.js	/^const u$a = universalify.fromCallback;$/;"	C
+u$b	dist/rollup-plugin-copy-assets.js	/^const u$b = universalify.fromCallback;$/;"	C
+u$b	dist/rollup-plugin-copy-assets.module.js	/^const u$b = universalify.fromCallback;$/;"	C
+universalify	dist/rollup-plugin-copy-assets.js	/^var universalify = {$/;"	O
+universalify	dist/rollup-plugin-copy-assets.module.js	/^var universalify = {$/;"	O
+url	package.json	/^    "url": "git+https:\/\/github.com\/bengsfort\/rollup-plugin-copy-assets"$/;"	s	object:repository
+url	package.json	/^    "url": "https:\/\/github.com\/bengsfort\/rollup-plugin-copy-assets\/issues"$/;"	s	object:bugs
+utimes	dist/rollup-plugin-copy-assets.js	/^var utimes = {$/;"	O
+utimes	dist/rollup-plugin-copy-assets.module.js	/^var utimes = {$/;"	O
+utimes$1	dist/rollup-plugin-copy-assets.js	/^const utimes$1 = utimes.utimesMillis;$/;"	C
+utimes$1	dist/rollup-plugin-copy-assets.module.js	/^const utimes$1 = utimes.utimesMillis;$/;"	C
+utimesSync	dist/rollup-plugin-copy-assets.js	/^const utimesSync = utimes.utimesMillisSync;$/;"	C
+utimesSync	dist/rollup-plugin-copy-assets.module.js	/^const utimesSync = utimes.utimesMillisSync;$/;"	C
+value	dist/rollup-plugin-copy-assets.js	/^    value: fn.name$/;"	P
+value	dist/rollup-plugin-copy-assets.module.js	/^    value: fn.name$/;"	P
+version	package.json	/^  "version": "1.1.0",$/;"	s
+win32	dist/rollup-plugin-copy-assets.js	/^var win32 = {$/;"	O
+win32	dist/rollup-plugin-copy-assets.module.js	/^var win32 = {$/;"	O
+writable	dist/rollup-plugin-copy-assets.js	/^    this.writable = true;$/;"	P
+writable	dist/rollup-plugin-copy-assets.module.js	/^    this.writable = true;$/;"	P
+writeFile	dist/rollup-plugin-copy-assets.js	/^  writeFile: writeFile,$/;"	P
+writeFile	dist/rollup-plugin-copy-assets.module.js	/^  writeFile: writeFile,$/;"	P
+writeFileSync	dist/rollup-plugin-copy-assets.js	/^  writeFileSync: writeFileSync$/;"	P
+writeFileSync	dist/rollup-plugin-copy-assets.module.js	/^  writeFileSync: writeFileSync$/;"	P
+writeJson	dist/rollup-plugin-copy-assets.js	/^  writeJson: u$8(jsonfile_1.writeFile),$/;"	P
+writeJson	dist/rollup-plugin-copy-assets.module.js	/^  writeJson: u$8(jsonfile_1.writeFile),$/;"	P
+writeJsonSync	dist/rollup-plugin-copy-assets.js	/^  writeJsonSync: jsonfile_1.writeFileSync$/;"	P
+writeJsonSync	dist/rollup-plugin-copy-assets.module.js	/^  writeJsonSync: jsonfile_1.writeFileSync$/;"	P
