@@ -1,4 +1,3 @@
-// import { expect } from "chai";
 import { rollup } from "rollup";
 import fs from "fs-extra";
 import path from "path";
