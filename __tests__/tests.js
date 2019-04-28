@@ -2,115 +2,98 @@
 import { rollup } from "rollup";
 import fs from "fs-extra";
 import path from "path";
+import os from "os";
 import copy from "../dist/rollup-plugin-copy-assets.module";
 
-// Change working directory to current
-// process.chdir(__dirname);
+let TEST_DIR;
 
-const OUTPUT_PATH = path.join(__dirname, "./output");
-const EXISTING_PATH = path.join(__dirname, "./existing-dir");
-
-beforeAll(async () => {
-  await fs.remove(OUTPUT_PATH);
+beforeEach(async () => {
+  TEST_DIR = path.join(os.tmpdir(), "rollup-plugin-copy-assets");
+  await fs.emptyDir(TEST_DIR);
 });
 
 it("should copy the assets to the output dir", async () => {
+  const BUNDLE_PATH = path.join(TEST_DIR, "bundle.js");
+  const ASSET_PATH = path.join(TEST_DIR, "top-level-item.txt");
+
   const input = {
     input: `${__dirname}/fixtures/index.js`,
     plugins: [copy({ assets: ["fixtures/top-level-item.txt"] })],
   };
   const output = {
-    file: `${OUTPUT_PATH}/bundle.js`,
+    file: BUNDLE_PATH,
     format: "iife",
     name: "test",
   };
   const bundle = await rollup(input);
-  const build = await bundle.write(output);
+  await bundle.write(output);
 
-  const dirExists = await fs.pathExists(OUTPUT_PATH);
-  expect(dirExists).toEqual(true);
-  // eslint-disable-next-line
-  console.log("Output path:", path.join(OUTPUT_PATH, "./top-level-item.txt"));
-  const fileExists = await fs.pathExists(
-    path.join(OUTPUT_PATH, "./top-level-item.txt")
-  );
-  expect(fileExists).toEqual(true);
+  await expect(fs.pathExists(BUNDLE_PATH)).resolves.toEqual(true);
+  await expect(fs.pathExists(ASSET_PATH)).resolves.toEqual(true);
 });
 
-// describe("rollup-plugin-copy-assets", function() {
-// afterEach(() => fs.remove("output"));
+it("should copy directories of assets", async () => {
+  const BUNDLE_PATH = path.join(TEST_DIR, "bundle.js");
+  const TOP_LEVEL_ASSET = path.join(TEST_DIR, "top-level-item.txt");
+  const ASSET_FOLDER = path.join(TEST_DIR, "assets");
+  const CSV_ASSET = path.join(ASSET_FOLDER, "bar.csv");
+  const TXT_ASSET = path.join(ASSET_FOLDER, "foo.txt");
 
-// it("should copy the assets to output dir", function() {
-//   return build({ assets: ["fixtures/top-level-item.txt"] })
-//     .then(() => fs.pathExists(OUTPUT_PATH))
-//     .then(dirExists => expect(dirExists).to.be.true)
-//     .then(() => fs.pathExists(OUTPUT_PATH + "./top-level-item.txt"))
-//     .then(fileExists => expect(fileExists).to.be.true);
-// });
+  await expect(fs.pathExists(BUNDLE_PATH)).resolves.toEqual(false);
+  await expect(fs.pathExists(TOP_LEVEL_ASSET)).resolves.toEqual(false);
+  await expect(fs.pathExists(CSV_ASSET)).resolves.toEqual(false);
+  await expect(fs.pathExists(TXT_ASSET)).resolves.toEqual(false);
 
-// it("should copy folders to output dir with same hierarchy", async function() {
-//   await build({
-//     assets: ["fixtures/assets"],
-//   });
-//   const dirExists = await fs.pathExists("./output/assets");
-//   expect(dirExists).to.be.true;
-//   const file1Exists = await fs.pathExists("./output/assets/foo.txt");
-//   const file2Exists = await fs.pathExists("./output/assets/bar.csv");
-//   expect(file1Exists).to.be.true;
-//   expect(file2Exists).to.be.true;
-// });
+  const input = {
+    input: path.join(__dirname, "fixtures", "index.js"),
+    plugins: [
+      copy({ assets: ["fixtures/assets", "fixtures/top-level-item.txt"] }),
+    ],
+  };
+  const output = {
+    file: BUNDLE_PATH,
+    format: "iife",
+    name: "test",
+  };
 
-// it("should copy all paths given to it", async function() {
-//   await build({
-//     assets: ["fixtures/assets", "fixtures/top-level-item.txt"],
-//   });
-//   await assertExists("output/assets");
-//   await assertExists("output/assets/foo.txt");
-//   await assertExists("output/assets/bar.csv");
-// });
+  const bundle = await rollup(input);
+  await bundle.write(output);
 
-// it("should not fail when the output path exists", async function() {
-//   const inputOpts = {
-//     input: "./fixtures/index.js",
-//     plugins: [
-//       copy({
-//         assets: ["fixtures/assets/bar.csv"],
-//       }),
-//     ],
-//   };
-//   const outputOpts = {
-//     file: "existing-dir/bundle.js",
-//     format: "iife",
-//     name: "test",
-//   };
-//   // Assert that the directory already exists
-//   await assertExists("./existing-dir/assets");
-//   await assertExists("./existing-dir/assets/bar.csv");
-//   // Create bundle
-//   const bundle = await rollup(inputOpts);
-//   await bundle.write(outputOpts);
-//   // Assert the files exist. If we have gotten this far, we have not errored out.
-//   await assertExists("./existing-dir/bundle.js");
-//   await assertExists("./existing-dir/assets");
-//   await assertExists("./existing-dir/assets/bar.csv");
-// });
-// });
+  await expect(fs.pathExists(BUNDLE_PATH)).resolves.toEqual(true);
+  await expect(fs.pathExists(TOP_LEVEL_ASSET)).resolves.toEqual(true);
+  await expect(fs.pathExists(CSV_ASSET)).resolves.toEqual(true);
+  await expect(fs.pathExists(TXT_ASSET)).resolves.toEqual(true);
+});
 
-// Run the rollup build with an plugin configuration.
-function build(config) {
-  return rollup({
-    input: "./__tests__/fixtures/index.js",
-    plugins: [copy(config)],
-  }).then(bundle =>
-    bundle.write({
-      file: "./__tests__/output/bundle.js",
-      format: "iife",
-      name: "test",
-    })
-  );
-}
+it("should not fail when an asset or directory already exists", async () => {
+  const BUNDLE_PATH = path.join(TEST_DIR, "bundle.js");
+  const ASSET_FOLDER = path.join(TEST_DIR, "assets");
+  const CSV_ASSET = path.join(ASSET_FOLDER, "bar.csv");
+  const TXT_ASSET = path.join(ASSET_FOLDER, "foo.txt");
 
-// Asserts that a file does or does not exist.
-function assertExists(file, shouldExist = true) {
-  return fs.pathExists(file).then(exists => assert.ok(exists === shouldExist));
-}
+  // Create all of the files so they exist
+  await fs.ensureFile(BUNDLE_PATH);
+  await fs.ensureFile(CSV_ASSET);
+  await fs.ensureFile(TXT_ASSET);
+
+  await expect(fs.pathExists(BUNDLE_PATH)).resolves.toEqual(true);
+  await expect(fs.pathExists(CSV_ASSET)).resolves.toEqual(true);
+  await expect(fs.pathExists(TXT_ASSET)).resolves.toEqual(true);
+
+  const input = {
+    input: path.join(__dirname, "fixtures", "index.js"),
+    plugins: [copy({ assets: ["fixtures/assets"] })],
+  };
+  const output = {
+    file: BUNDLE_PATH,
+    format: "iife",
+    name: "test",
+  };
+
+  const bundle = await rollup(input);
+  await bundle.write(output);
+
+  await expect(fs.pathExists(BUNDLE_PATH)).resolves.toEqual(true);
+  await expect(fs.pathExists(CSV_ASSET)).resolves.toEqual(true);
+  await expect(fs.pathExists(TXT_ASSET)).resolves.toEqual(true);
+});
