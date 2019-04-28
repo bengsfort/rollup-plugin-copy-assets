@@ -1,7 +1,7 @@
 language: node_js
 node_js: node
 
-install: npm install
+install: yarn
 
 cache:
   directories:

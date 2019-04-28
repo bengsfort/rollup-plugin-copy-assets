@@ -7,8 +7,7 @@
   "jsnext:main": "dist/rollup-plugin-copy-assets.module.js",
   "files": ["dist", "src", "README.md"],
   "scripts": {
-    "test": "yarn lint && jest __tests__/tests.js",
-    "pretest": "yarn build",
+    "test": "yarn lint && jest",
     "build": "yarn build:cjs && yarn build:module",
     "build:cjs": "rollup -c -o ./dist/rollup-plugin-copy-assets.js -f cjs",
     "build:module": "rollup -c -o ./dist/rollup-plugin-copy-assets.module.js -f es",
