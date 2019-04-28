@@ -1,6 +1,6 @@
 # rollup-plugin-copy-assets
 
-![build status](https://api.travis-ci.org/bengsfort/rollup-plugin-copy-assets.svg?branch=master) [![npm version](https://badge.fury.io/js/rollup-plugin-copy-assets.svg)](https://www.npmjs.com/package/rollup-plugin-copy-assets)
+![build status](https://api.travis-ci.org/bengsfort/rollup-plugin-copy-assets.svg?branch=master) ![coverage](coverage/coverage.svg) [![npm version](https://badge.fury.io/js/rollup-plugin-copy-assets.svg)](https://www.npmjs.com/package/rollup-plugin-copy-assets)
 
 Copy additional assets into the output directory of your rollup bundle.
 
@@ -14,17 +14,14 @@ npm install --save-dev rollup-plugin-copy-assets
 
 ```js
 // rollup.config.js
-import copy from 'rollup-plugin-copy-assets';
+import copy from "rollup-plugin-copy-assets";
 
 export default {
-  entry: 'src/index.js',
-  dest: 'dist/bundle.js',
+  entry: "src/index.js",
+  dest: "dist/bundle.js",
   plugins: [
     copy({
-      assets: [
-        './src/assets',
-        './src/external/buffer.bin',
-      ],
+      assets: ["./src/assets", "./src/external/buffer.bin"],
     }),
   ],
 };
