@@ -16,7 +16,11 @@ export default function copy(options = { assets: [] }) {
     name: "copy-assets",
     options({ input }) {
       // Cache the base directory so we can figure out where to put assets.
-      basedir = path.dirname(input);
+      if (Array.isArray(input)) {
+        basedir = path.dirname(input[0]);
+      } else {
+        basedir = path.dirname(input);
+      }
     },
     async generateBundle({ file, dir }) {
       const outputDirectory = dir || path.dirname(file);
