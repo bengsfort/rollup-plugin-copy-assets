@@ -17,7 +17,8 @@
     "format": "prettier --write 'rollup.config.js' '.{babel,eslint,prettier}rc' 'package.json' './{src,test}**/*.js'",
     "lint": "eslint ./src",
     "lint:fix": "eslint ./src --fix",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged",
+    "prepublishOnly": "yarn build"
   },
   "repository": {
     "type": "git",
