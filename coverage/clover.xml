@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1556489906625" clover="3.2.0">
-  <project timestamp="1556489906625" name="All files">
-    <metrics statements="21" coveredstatements="20" conditionals="11" coveredconditionals="10" methods="4" coveredmethods="4" elements="36" coveredelements="34" complexity="0" loc="21" ncloc="21" packages="1" files="1" classes="1"/>
-    <file name="index.js" path="/Users/matthewbengston/source/repos/rollup-plugin-copy-assets/src/index.js">
-      <metrics statements="21" coveredstatements="20" conditionals="11" coveredconditionals="10" methods="4" coveredmethods="4"/>
-      <line num="13" count="4" type="stmt"/>
-      <line num="14" count="4" type="stmt"/>
-      <line num="15" count="4" type="stmt"/>
-      <line num="19" count="4" type="cond" truecount="2" falsecount="0"/>
+<coverage generated="1573732400173" clover="3.2.0">
+  <project timestamp="1573732400173" name="All files">
+    <metrics statements="23" coveredstatements="22" conditionals="13" coveredconditionals="12" methods="4" coveredmethods="4" elements="40" coveredelements="38" complexity="0" loc="23" ncloc="23" packages="1" files="1" classes="1"/>
+    <file name="index.js" path="/tmp/rollup-plugin-copy-assets-2/src/index.js">
+      <metrics statements="23" coveredstatements="22" conditionals="13" coveredconditionals="12" methods="4" coveredmethods="4"/>
+      <line num="13" count="5" type="stmt"/>
+      <line num="14" count="5" type="stmt"/>
+      <line num="15" count="5" type="stmt"/>
+      <line num="19" count="5" type="cond" truecount="2" falsecount="0"/>
       <line num="20" count="1" type="stmt"/>
-      <line num="22" count="3" type="stmt"/>
-      <line num="26" count="4" type="cond" truecount="2" falsecount="0"/>
-      <line num="27" count="4" type="stmt"/>
-      <line num="29" count="6" type="stmt"/>
-      <line num="30" count="6" type="stmt"/>
-      <line num="31" count="6" type="stmt"/>
-      <line num="32" count="6" type="stmt"/>
-      <line num="36" count="6" type="stmt"/>
-      <line num="37" count="6" type="stmt"/>
-      <line num="38" count="6" type="cond" truecount="2" falsecount="0"/>
-      <line num="39" count="2" type="cond" truecount="2" falsecount="0"/>
-      <line num="41" count="4" type="cond" truecount="2" falsecount="0"/>
-      <line num="42" count="1" type="stmt"/>
-      <line num="43" count="1" type="stmt"/>
-      <line num="46" count="6" type="stmt"/>
-      <line num="51" count="0" type="stmt"/>
+      <line num="21" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="22" count="1" type="stmt"/>
+      <line num="24" count="3" type="stmt"/>
+      <line num="28" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="29" count="5" type="stmt"/>
+      <line num="31" count="7" type="stmt"/>
+      <line num="32" count="7" type="stmt"/>
+      <line num="33" count="7" type="stmt"/>
+      <line num="34" count="7" type="stmt"/>
+      <line num="38" count="7" type="stmt"/>
+      <line num="39" count="7" type="stmt"/>
+      <line num="40" count="7" type="cond" truecount="2" falsecount="0"/>
+      <line num="41" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="43" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="44" count="1" type="stmt"/>
+      <line num="45" count="1" type="stmt"/>
+      <line num="48" count="7" type="stmt"/>
+      <line num="53" count="0" type="stmt"/>
     </file>
   </project>
 </coverage>

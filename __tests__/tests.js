@@ -59,6 +59,30 @@ it("should not fail when used with an array of inputs", async () => {
   await expect(fs.pathExists(ASSET_PATH)).resolves.toEqual(true);
 });
 
+it("should not fail when used with an object of inputs", async () => {
+  const BUNDLE1_PATH = path.join(TEST_DIR, "index.js");
+  const BUNDLE2_PATH = path.join(TEST_DIR, "index2.js");
+  const ASSET_PATH = path.join(TEST_DIR, "top-level-item.txt");
+
+  const input = {
+    input: {
+      index: path.join(__dirname, "fixtures", "index.js"),
+      index2: path.join(__dirname, "fixtures", "index2.js"),
+    },
+    plugins: [copy({ assets: ["fixtures/top-level-item.txt"] })],
+  };
+  const output = {
+    dir: TEST_DIR,
+    format: "cjs",
+  };
+  const bundle = await rollup(input);
+  await bundle.write(output);
+
+  await expect(fs.pathExists(BUNDLE1_PATH)).resolves.toEqual(true);
+  await expect(fs.pathExists(BUNDLE2_PATH)).resolves.toEqual(true);
+  await expect(fs.pathExists(ASSET_PATH)).resolves.toEqual(true);
+});
+
 it("should copy directories of assets", async () => {
   const BUNDLE_PATH = path.join(TEST_DIR, "bundle.js");
   const TOP_LEVEL_ASSET = path.join(TEST_DIR, "top-level-item.txt");

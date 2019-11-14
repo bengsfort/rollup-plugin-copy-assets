@@ -18,6 +18,8 @@ export default function copy(options = { assets: [] }) {
       // Cache the base directory so we can figure out where to put assets.
       if (Array.isArray(input)) {
         basedir = path.dirname(input[0]);
+      } else if (typeof input === "object") {
+        basedir = path.dirname(input[Object.keys(input)[0]]);
       } else {
         basedir = path.dirname(input);
       }
