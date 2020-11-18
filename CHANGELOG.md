@@ -1,5 +1,10 @@
 # rollup-plugin-copy-assets
 
+## 2.0.3
+
+- Fix asset paths that are deeper than 1 level (#18, thanks @sxxov)
+- Allow rollup-input to be an object (#12, thanks @EtienneBruines)
+
 ## 2.0.0
 
 - Fix failure occurring when used with chunked builds.
