@@ -29,11 +29,16 @@ export default function copy(options = { assets: [] }) {
       return Promise.all(
         assets.map(async asset => {
           try {
-            const target = path.join(outputDirectory, path.basename(asset));
-            const normalizedAssetPath = path.normalize(basedir, asset);
+            const assetChildPath = asset
+              .replace(
+                path.basename(basedir), 
+                ""
+              );
+            const target = path.join(outputDirectory, assetChildPath);
+            const normalizedAssetPath = path.normalize(basedir);
             const assetPath = path.join(
               normalizedAssetPath,
-              path.basename(asset)
+              assetChildPath
             );
             const targetIsDir = path.extname(target) === "";
             const targetExists = await fs.pathExists(target);
