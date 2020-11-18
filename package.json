@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-copy-assets",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Copy additional assets into the output directory of your rollup bundle.",
   "main": "dist/rollup-plugin-copy-assets.js",
   "module": "dist/rollup-plugin-copy-assets.module.js",
