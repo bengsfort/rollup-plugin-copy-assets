@@ -5,7 +5,11 @@
   "main": "dist/rollup-plugin-copy-assets.js",
   "module": "dist/rollup-plugin-copy-assets.module.js",
   "jsnext:main": "dist/rollup-plugin-copy-assets.module.js",
-  "files": ["dist", "src", "README.md"],
+  "files": [
+    "dist",
+    "src",
+    "README.md"
+  ],
   "scripts": {
     "coverage": "lcov-badge-generator -o ./coverage/coverage.svg ./coverage/lcov.info",
     "test": "yarn lint && jest",
@@ -24,7 +28,13 @@
     "type": "git",
     "url": "git+https://github.com/bengsfort/rollup-plugin-copy-assets"
   },
-  "keywords": ["rollup-plugin", "bundle", "copy", "rollup", "assets"],
+  "keywords": [
+    "rollup-plugin",
+    "bundle",
+    "copy",
+    "rollup",
+    "assets"
+  ],
   "author": "Matt Bengston <bengston.matthew@gmail.com> (https://bengsfort.github.io)",
   "license": "MIT",
   "bugs": {
@@ -53,7 +63,7 @@
     "rollup": ">=1.1.2"
   },
   "dependencies": {
-    "fs-extra": "^7.0.1"
+    "fs-extra": "^8.0.0"
   },
   "husky": {
     "hooks": {
@@ -61,7 +71,14 @@
     }
   },
   "lint-staged": {
-    "*.js": ["prettier --write", "yarn lint", "git add"],
-    "*.json": ["prettier --write", "git add"]
+    "*.js": [
+      "prettier --write",
+      "yarn lint",
+      "git add"
+    ],
+    "*.json": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }
